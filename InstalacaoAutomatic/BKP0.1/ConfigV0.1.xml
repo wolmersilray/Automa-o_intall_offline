@@ -1,0 +1,13 @@
+<!-- Office 2026 standard -->
+<Configuration Product="Standard">
+
+  <Display Level="none" CompletionNotice="no" SuppressModal="yes" AcceptEula="yes" />
+
+  <Logging Type="standard" Path="%temp%" Template="OfficeSetup(*).txt" />
+
+  <PIDKEY>CXXX-XXXX-XXXX-XXXX-</PIDKEY> <!-- opcional se volume licenciado -->
+
+  <Setting Id="AUTOACTIVATE" Value="1"/>
+  <Setting Id="SETUP_REBOOT" Value="Never"/>
+
+</Configuration>

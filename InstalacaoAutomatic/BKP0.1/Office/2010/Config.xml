@@ -1,0 +1,6 @@
+<!-- Office 2010 standard.WW -->
+<Configuration Product="Standard.WW">
+  <Display Level="none" CompletionNotice="no" SuppressModal="no" AcceptEula="yes" />
+  <Setting Id="SETUP_REBOOT" Value="Never"/>
+   <Logging Type="standard" Path="%temp%" Template="Office2010Setup(*).txt" />
+</Configuration>
